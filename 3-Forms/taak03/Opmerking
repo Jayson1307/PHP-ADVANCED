@@ -1,3 +1,8 @@
 Kun je nog iets zeg waarom er twee manieren zijn: Get en Post? Wat is het voordeel van Get en wat van Post? In welke situaties gebruik je Get en wanneer Post?
 get is een zochtbare manier van informatie doosturen naar een php bestand, omdat de info in de url in de adres balk staat, en bij post word het gewoon onzichtbaar doorgestuurd. 
 daarom is het handiger om post te gebruiken als je belangrijke gegevens verstuurd, zoals gebruikers informatie zoals wachtwoorden enzo.
+
+
+
+
+http://localhost/php-advanced/3-Forms/taak03/mijnmuziek.php?artiest=post+malone&titel=Only+wanna+be+with+you&jvu=2021&genre=hip+hop&submit=verstuur

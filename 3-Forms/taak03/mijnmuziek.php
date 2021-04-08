@@ -16,3 +16,4 @@
     ?>
 </body>
 </html>
+http://localhost/php-advanced/3-Forms/taak03/mijnmuziek.php?artiest=post+malone&titel=Only+wanna+be+with+you&jvu=2021&genre=hip+hop&submit=verstuur
