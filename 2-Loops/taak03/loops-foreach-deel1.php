@@ -1,5 +1,6 @@
 <html>
 <head></head>
+<style></style>
 <body>
     <?php
         $dagen = array("maandag", "dinsadg", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag");
