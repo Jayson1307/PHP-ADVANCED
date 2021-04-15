@@ -7,17 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>letterkleur:</h3>
-    <form action="radio">
-        <select name="tekstkleur" id="tekstkleur">
-        <?php $kleuren = array("red ", "blue ", "green ", "black ", "brown");
-    foreach ($kleuren as $tekstkleur) {
-        echo "<option value=$tekstkleur>$tekstkleur>";
-    }?>
-    <br>
-        </select>
-        <input type="text" name="border">
-    </form>
-    
+<form name="invoer" action="advanced-2.php" method="post">
+<select name="achtergrond" id="achtergrond">
+<?php
+$kleuren = array("red", "blue", "green", "black", "brown");
+foreach($kleuren as $colors){
+    echo "<option value=$colors>$colors</option>";
+}
+?>
+<br> 
+</select>
+<br>
+<a>tekst kleur</a>
+
+<input type= "text" name="border">
+<a>border</a>
+
+<input type= "text" name= "padding">
+<a>padding</a>
+
+
+<input type="submit"name="submit"value="verstuur">
+</form>
 </body>
 </html>
