@@ -8,7 +8,7 @@
     <style>
         body{
             background-color: <?php echo $_POST["achtergrond"] ?>;
-            color
+            color: <?php echo $_POST["tekstkleur"]?>;
 
         }
         table,tr,td,th {
@@ -33,8 +33,8 @@
                         function maakrij($info1){
                                 return $info1;
                         }
-                            foreach($info1 as $index => $thing){
-                                echo "<tr><td> $thing </td><td> $info2[$index] </td></tr>";
+                            foreach($info1 as $index => $ding){
+                                echo "<a><tr><td> $ding </td><td> $info2[$index] </td></tr></a>";
                             }
 
                     ?>
