@@ -7,13 +7,14 @@
     <title>Document</title>
     <style>
         body{
-            background-color: <?php echo $_POST["achtergrond"] ?>;
-            color: <?php echo $_POST["tekstkleur"]?>;
+            background-color: <?php echo $_GET["achtergrond"] ?>;
+            color: <?php echo $_GET["tekstkleur"]?>;
 
         }
         table,tr,td,th {
-                    padding: <?php echo $_POST["padding"] ?>px;
-                    border: <?php echo $_POST["border"] ?>px solid grey;
+                    padding: <?php echo $_GET["padding"] ?>px;
+                    border: <?php echo $_GET["border"] ?>px solid grey;
+                    margin-left: 50% ; 
                 }
 
     </style>

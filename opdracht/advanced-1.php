@@ -7,14 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-<form name="invoer" action="advanced-2.php" method="post">
+<form name="invoer" action="advanced-2.php" method="get">
 achtergrondkleur:
 <select name="achtergrond" id="achtergrond">
 <?php
 $kleuren = array("red", "blue", "green", "black", "brown");
-foreach($kleuren as $colors){
-    echo "<option value=$colors>$colors</option>";
+for ($i=0; $i < count($kleuren) ; $i++) { 
+    echo "<option value=$kleuren[$i]>$kleuren[$i]</option>";
 }
+    
+
 ?>
 </select>
 <br>
@@ -41,6 +43,7 @@ foreach($kleuren as $colors){
 <input type= "text" name= "padding">
 <br> 
 <br>
+<a> margin </a>
 
 <input type="submit"name="submit"value="verstuur">
 </form>
